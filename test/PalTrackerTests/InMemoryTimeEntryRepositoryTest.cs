@@ -8,7 +8,7 @@ namespace PalTrackerTests
     public class InMemoryTimeEntryRepositoryTest
     {
         private readonly InMemoryTimeEntryRepository _repository;
-
+    
         public InMemoryTimeEntryRepositoryTest()
         {
             _repository = new InMemoryTimeEntryRepository();
